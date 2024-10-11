@@ -1,6 +1,24 @@
 .item-table tr td {
     border: 1px solid black;
 }
+.item-table tr:nth-child(even){
+    background-color: #0511F2;
+    color: white;
+}
+.item-table tr:nth-child(odd){
+    background-color: #F20505;
+    color: white;
+}
+.item-table tr:nth-child(1){
+    background-color: white;
+    color: black;
+}
+.item-table{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .header {
     list-style: none;
     display: flex;
